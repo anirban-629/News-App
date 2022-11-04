@@ -34,6 +34,7 @@ export default function News(props) {
 
   useEffect(() => {
     updateNews();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchMoreData = async () => {
